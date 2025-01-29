@@ -1,0 +1,22 @@
+ul {
+  list-style-type: none;
+}
+body {
+  margin: 0;
+}
+.body__wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.container {
+  max-width: 1256px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.background-container {
+  background-image: url(../images/background-oval.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
