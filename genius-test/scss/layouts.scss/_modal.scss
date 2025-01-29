@@ -1,0 +1,65 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(1, 31, 74, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.modal {
+  width: 680px;
+  height: 720px;
+  background-color: var(--color-brand-dark);
+  background-image: url(../images/background-modal.png);
+  border-radius: 48px;
+  margin: 0 auto;
+  position: relative;
+}
+.backdrop.is-hidden {
+  display: none;
+}
+.form-container {
+  padding: 42px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.close-modal-button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 42px;
+  right: 42px;
+}
+.modal-title {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700px;
+  text-align: center;
+  color: var(--white);
+  margin: 0 auto 40px auto;
+  max-width: 435px;
+}
+.modal-offer {
+  font-family: "roboto", sans-serif;
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 600px;
+  max-width: 274px;
+  text-align: center;
+  margin: 0 auto 32px auto;
+}
+.modal-offer span {
+  color: var(--color-brand);
+}
+
+.modal-form {
+  width: 100%;
+  max-width: 310px;
+  margin: 0 auto;
+}
