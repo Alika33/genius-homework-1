@@ -9,6 +9,9 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
 }
 .modal {
   width: 680px;
@@ -19,8 +22,9 @@
   margin: 0 auto;
   position: relative;
 }
-.backdrop.is-hidden {
-  display: none;
+.backdrop.open {
+  visibility: visible;
+  opacity: 1;
 }
 .form-container {
   padding: 42px 0;
